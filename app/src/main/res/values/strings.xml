@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">AOAChineseHoroscope</string>
+    <string name="description_buey">(1937, 1949, 1961, 1973, 1985, 1997, 2009)\n Los búfalos o bueyes son animales pacientes y tranquilos, que irradian mucho cariño y amor e infunden respeto.
+                        Grandes trabajadores, se sienten a gusto rodeados del orden y la limpieza y logran el éxito gracias a su esfuerzo. Para ellos lo más importante es la familia, aunque son celosos con su pareja.
+                        Aman el arte y la música. No les gusta discutir, aunque sí que le obedezcan.</string>
+    <string name="description_caballo">(1942, 1954, 1966, 1978, 1990, 2002, 2014)\n
+                        Populares, optimistas, llenos de alegría, aventureros, elocuentes, impacientes, emprendedores, entusiastas con la vida, grandes amantes y amigos.
+                        Su gran pasión es el dinero y los viajes. Les gusta conocer gente nueva, distintas culturas, hablar idiomas y son el alma de las fiestas. Su atractivo físico
+                        y su belleza hace que les sea fácil encontrar el amor: trampa en la que caen sin remedio.</string>
+    <string name="description_cabra">(1943, 1955, 1967, 1979, 1991, 2003, 2015)\n
+                        La cabra es creativa, artística, positiva, elegante, femenina, afable, compasiva, llorona, sensible, soñadora, orgullosa y triste. No persiguen la riqueza material
+                        y prefieren vivir de sus ensoñaciones. Aman la familia, los niños, el hogar y estar en contacto con la naturaleza. Son muy trabajadoras, aunque no les gusta la
+                        presión ni de una fecha límite, ni de un jefe.</string>
+    <string name="description_dragon">(1940, 1952, 1964, 1976, 1988, 2000, 2012)\n
+                        Símbolo del Emperador en China, el dragón es imaginativo, magnánimo, emprendedor, afortunado y poderoso. Está lleno de fuerza y vitalidad.
+                        Es un verdadero acumulador de energía y si le enojas, se enfurecerá de tal manera que perderá los estribos. Será difícil calmarle, pues no cree ni a nadie ni en nadie.
+                        Suelen dar buenos consejos y son afortunados tanto en el dinero como en el amor. Son muy sentimentales y se enamoran locamente.</string>
+    <string name="description_gallo">(1945, 1957, 1969, 1981, 1993, 2005, 2017)\n
+                        Atractivo y seductor, con talento y apreciado. Son meticulosos, eficientes, ordenados, buenos conversadores, observadores, egoístas, usureros, pragmáticos y muy familiares.
+                        En el amor son románticos, obstinados y luchan por el control de su pareja. Suelen destacar como relaciones públicas o como artistas. No prestan demasiada atención a su salud.</string>
+
 </resources>

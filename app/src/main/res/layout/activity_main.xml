@@ -33,9 +33,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="64dp"
                 android:layout_marginBottom="16dp"
-                android:columnCount="2"
+                android:columnCount="3"
                 android:orientation="horizontal"
-                android:rowCount="2"
+
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -45,84 +45,84 @@
                     android:id="@+id/bueyMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/buey" />
 
                 <ImageButton
                     android:id="@+id/caballoMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/caballo" />
 
                 <ImageButton
                     android:id="@+id/cabraMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/cabra" />
 
                 <ImageButton
                     android:id="@+id/dragonMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/dragon" />
 
                 <ImageButton
                     android:id="@+id/galloMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/gallo" />
 
                 <ImageButton
                     android:id="@+id/gatoMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/gato" />
 
                 <ImageButton
                     android:id="@+id/jabaliMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/jabali" />
 
                 <ImageButton
                     android:id="@+id/monoMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/mono" />
 
                 <ImageButton
                     android:id="@+id/perroMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/perro" />
 
                 <ImageButton
                     android:id="@+id/rataMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/rata" />
 
                 <ImageButton
                     android:id="@+id/serpienteMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/serpiente" />
 
                 <ImageButton
                     android:id="@+id/tigreMainImageButton"
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_margin="30dp"
+                    android:layout_margin="10dp"
                     android:background="@mipmap/tigre" />
 
             </GridLayout>
