@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_ox));
+                intent.putExtra("animal",R.string.menu_ox);
                 intent.putExtra("content",getString(R.string.description_ox));
 
                 startActivity(intent);
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_horse));
+                intent.putExtra("animal",R.string.menu_horse);
                 intent.putExtra("content",getString(R.string.description_horse));
                 startActivity(intent);
 
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_goat));
+                intent.putExtra("animal",R.string.menu_goat);
                 intent.putExtra("content",getString(R.string.description_goat));
 
                 startActivity(intent);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_dragon));
+                intent.putExtra("animal",R.string.menu_dragon);
                 intent.putExtra("content",getString(R.string.description_dragon));
 
                 startActivity(intent);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_rooster));
+                intent.putExtra("animal",R.string.menu_rooster);
                 intent.putExtra("content",getString(R.string.description_rooster));
 
                 startActivity(intent);
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_cat));
+                intent.putExtra("animal",R.string.menu_cat);
                 intent.putExtra("content",getString(R.string.description_cat));
 
                 startActivity(intent);
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_wild_pig));
+                intent.putExtra("animal",R.string.menu_wild_pig);
                 intent.putExtra("content",getString(R.string.description_wild_pig));
 
                 startActivity(intent);
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_monkey));
+                intent.putExtra("animal",R.string.menu_monkey);
                 intent.putExtra("content",getString(R.string.description_monkey));
 
                 startActivity(intent);
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_dog));
+                intent.putExtra("animal",R.string.menu_dog);
                 intent.putExtra("content",getString(R.string.description_dog));
 
                 startActivity(intent);
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_rat));
+                intent.putExtra("animal",R.string.menu_rat);
                 intent.putExtra("content",getString(R.string.description_rat));
 
                 startActivity(intent);
@@ -154,7 +154,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_snake));
+                intent.putExtra("animal",R.string.menu_snake);
                 intent.putExtra("content",getString(R.string.description_snake));
 
                 startActivity(intent);
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent   = new Intent(getApplicationContext(),HoroscopeDetailActivity.class);
-                intent.putExtra("animal",getString(R.string.menu_tiger));
+                intent.putExtra("animal",R.string.menu_tiger);
                 intent.putExtra("content",getString(R.string.description_tiger));
 
                 startActivity(intent);

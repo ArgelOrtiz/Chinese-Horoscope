@@ -28,46 +28,50 @@ public class HoroscopeDetailActivity extends AppCompatActivity {
         TextView contentTextView    = findViewById(R.id.contentHoroscopeDetailTextView);
         ImageView currentImageView  = findViewById(R.id.currentHoroscopeDetailImageView);
 
-        animalTextView.setText(currentIntent.getStringExtra("animal"));
+        animalTextView.setText(getString(currentIntent.getIntExtra("animal",0)));
         contentTextView.setText(currentIntent.getStringExtra("content"));
 
-        switch (currentIntent.getStringExtra("animal")){
-            case "Buey":
+        switch (currentIntent.getIntExtra("animal",0)){
+            case R.string.menu_ox:
                 currentImageView.setImageResource(R.mipmap.buey);
                 break;
-            case "Caballo":
+            case R.string.menu_horse:
                 currentImageView.setImageResource(R.mipmap.caballo);
                 break;
-            case "Cabra":
+            case R.string.menu_goat:
                 currentImageView.setImageResource(R.mipmap.cabra);
                 break;
-            case "Dragon":
+            case R.string.menu_dragon:
                 currentImageView.setImageResource(R.mipmap.dragon);
                 break;
-            case "Gallo":
+            case R.string.menu_rooster:
                 currentImageView.setImageResource(R.mipmap.gallo);
                 break;
-            case "Gato":
+            case R.string.menu_cat:
                 currentImageView.setImageResource(R.mipmap.gato);
                 break;
-            case "Jabali":
+            case R.string.menu_wild_pig:
                 currentImageView.setImageResource(R.mipmap.jabali);
                 break;
-            case "Mono":
+            case R.string.menu_monkey:
                 currentImageView.setImageResource(R.mipmap.mono);
                 break;
-            case "Perro":
+            case R.string.menu_dog:
                 currentImageView.setImageResource(R.mipmap.perro);
                 break;
-            case "Rata":
+            case R.string.menu_rat:
                 currentImageView.setImageResource(R.mipmap.rata);
                 break;
-            case "Serpiente":
+            case R.string.menu_snake:
                 currentImageView.setImageResource(R.mipmap.serpiente);
                 break;
-            case "Tigre":
+            case R.string.menu_tiger:
                 currentImageView.setImageResource(R.mipmap.tigre);
                 break;
+            default:
+                currentImageView.setImageResource(R.drawable.ic_horoscope);
+                break;
+
         }
 
 
